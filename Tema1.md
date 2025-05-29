@@ -38,9 +38,11 @@ def biseccion(f, a, b, tol=1e-6):
         else:
             a = c
     return (a + b) / 2
+
 ## Ejemplo de aplicación
 Queremos encontrar una raíz de la función f(x) = x^2 - 2 en el intervalo [0, 2]:
 resultado = biseccion(lambda x: x**2 - 2, 0, 2)
 print("Raíz aproximada:", resultado)
+
 ## Salida esperada:
 Raíz aproximada: 1.4142...
