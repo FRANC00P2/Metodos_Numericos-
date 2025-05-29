@@ -1,4 +1,6 @@
 # Metodos_Numericos
+Autor 
+-FRANCO MORALES YAEL OBED 
 
 - [**Tema 1** : Introducción a Métodos Numéricos](Tema1.md)
 - [**Tema 2** : Solución de ecuaciones](Tema2.md)
