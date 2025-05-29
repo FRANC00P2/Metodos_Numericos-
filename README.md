@@ -1,9 +1,9 @@
 # Metodos_Numericos
-*Autor de github*
+
 
 EJ2025 - G1_ MN
 University
-
+*Autor de github*
 -FRANCO MORALES YAEL OBED 
 
 *Introducción*
