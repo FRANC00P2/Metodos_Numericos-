@@ -1,5 +1,6 @@
 # Metodos_Numericos
-Autor 
+*Autor de github*
+
 -FRANCO MORALES YAEL OBED 
 
 - [**Tema 1** : Introducción a Métodos Numéricos](Tema1.md)
