@@ -6,7 +6,7 @@ University
 
 -FRANCO MORALES YAEL OBED 
 
-Introducción
+*Introducción*
 
 En el campo de la ingeniería y las ciencias aplicadas, los métodos numéricos juegan un papel fundamental para resolver problemas matemáticos que no tienen una solución analítica exacta o que resultan demasiado complejos para abordarlos de manera tradicional. Estos métodos consisten en técnicas matemáticas que permiten encontrar soluciones aproximadas a ecuaciones mediante algoritmos computacionales.
 
