@@ -2,6 +2,8 @@
 # Tema 1: Introducción a Métodos Numéricos
 
 Los métodos numéricos permiten resolver problemas matemáticos mediante técnicas computacionales. En este tema se presentan los tipos de errores más comunes en los cálculos numéricos.
+## 📌 Descripción del método
+Los métodos numéricos son técnicas que permiten encontrar soluciones aproximadas a problemas matemáticos que no se pueden resolver analíticamente. Se utilizan en ingeniería, física, economía, etc.
 
 ---
 
@@ -14,6 +16,31 @@ En los métodos numéricos, los errores son inevitables y pueden clasificarse co
 - **Errores de redondeo**: debido a la representación finita de los números en computadora.
 - **Errores propagados**: acumulación de errores a lo largo de múltiples pasos.
 
+
+## 🐍 Código en Python
+
+```python
+def biseccion(f, a, b, tol=1e-6):
+    while (b - a)/2 > tol:
+        c = (a + b) / 2
+        if f(c) == 0:
+            return c
+        elif f(a)*f(c) < 0:
+            b = c
+        else:
+            a = c
+    return (a + b) / 2
+---
+📊 Ejemplo de aplicación
+Queremos encontrar una raíz de la función f(x) = x^2 - 2 en el intervalo [0, 2]:
+
+resultado = biseccion(lambda x: x**2 - 2, 0, 2)
+print("Raíz aproximada:", resultado)
+Salida esperada:
+
+
+Raíz aproximada: 1.4142...
+Esta es una aproximación de √2 usando el método de bisección.
 ---
 
 ## 🧮 2. Errores de precisión
