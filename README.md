@@ -1,6 +1,9 @@
 # Metodos_Numericos
 *Autor de github*
 
+EJ2025 - G1_ MN
+University
+
 -FRANCO MORALES YAEL OBED 
 
 - [**Tema 1** : Introducción a Métodos Numéricos](Tema1.md)
